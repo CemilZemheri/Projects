@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300;1,600&display=swap');
+
+
+
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    background-image: linear-gradient(90deg, rgba(35, 3, 95, 0.89), rgba(39, 159, 214, 0.74))
+}
+h1{
+    text-align: center;
+    font-family: 'Rubik Burned', system-ui;
+    font-size: 7vh;
+    color: white;
+}
+.row{
+    background-color: aqua;
+    display: flex;
+    width: 80%;
+    margin: 1% 10%;
+    background-image: linear-gradient(90deg, rgb(12, 106, 228), rgba(10, 208, 243, 0.932));
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px;
+    
+}
+img{
+    margin: 20px;
+    width: 35vh;
+    border-radius: 3px;
+}
+img:hover{
+    width: 40vh;
+    
+    transition: 0,5s ease;
+    cursor: pointer;
+
+}
+.row h3{
+    padding-top: 15px;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vh;
+}
+.row p{
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+    text-align: justify;
+    padding-right: 20px;
+    
+}
+.row button{
+    background-color: rgb(255, 123, 0);
+    width: 8vw;
+    height: 3vh;
+    margin-left: 75%;
+    margin-top: 10%;
+    border-radius: 5px;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+}

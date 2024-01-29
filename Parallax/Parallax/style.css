@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    height: 100vh;
+}
+.BASLIK {
+border: none;
+text-align: center;
+background-color: rgb(86, 86, 86);
+color: white;
+letter-spacing: 8px;
+
+font-family: 'Lato', sans-serif;
+margin:100px auto;
+width: 20rem;
+height: 4rem;
+padding: 10px;
+border-bottom-right-radius: 1.5rem;
+border-top-left-radius: 1.5rem;
+outline: 6px inset rgba(136, 0, 136, 0.675);
+outline-offset: 10px;
+
+
+}
+.BASLIK2 {
+    border: none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    letter-spacing: 8px;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+   margin: auto;
+    width: 42rem;
+    height: 4rem;
+    
+   
+    border-bottom-right-radius: 0.7rem;
+    border-top-left-radius: 0.7rem;
+    outline: 0.4rem inset rgba(136, 0, 136, 0.675);
+    
+    outline-offset: 0.2rem;
+    /* overflow: hidden; */
+    
+   
+}
+.BASLIK3 {
+    border: none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    letter-spacing: 8px;
+   
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+   margin: auto;
+    width: 25rem;
+    height: 4rem;
+   
+    border-bottom-right-radius: 0.7rem;
+    border-top-left-radius: 0.7rem;
+    outline: 0.4rem inset rgba(136, 0, 136, 0.675);
+    
+    outline-offset: 0.2rem;
+    /* overflow: hidden; */
+    
+   
+}
+.BASLIK4 {
+    border: none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    letter-spacing: 8px;
+   
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+   margin: auto;
+    width: 40rem;
+    height: 4rem;
+   
+    border-bottom-right-radius: 0.7rem;
+    border-top-left-radius: 0.7rem;
+    outline: 6px inset rgba(136, 0, 136, 0.675);
+    
+    outline-offset: 10px;
+    /* overflow: hidden; */
+    
+   
+}
+
+#resim1{ 
+    width:300px;
+    opacity: ;
+
+}
+.container-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.container1{
+    height: 100vh;
+       background-image: url(./img/bg.jpg); 
+    min-height: 100%;
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.container2{
+    height: 100vh;
+       background-image: url(./img/bg2.jpg); 
+    min-height: 100%;
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+
+.container3{
+    height: 100vh;
+       background-image: url(./img/bg3.jpg); 
+    min-height: 100%;
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.container4{
+    height: 100vh;
+       background-image: url(./img/bg4.jpg); 
+    min-height: 100%;
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.container5{
+    height: 100vh;
+       background-image: url(./img/bg.jpg); 
+    min-height: 100%;
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.paragraf1{
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 2rem;
+    padding: 1.5rem 4rem 1.5rem 4rem;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+}
+.paragraf1 h2{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+.paragraf2{
+    background-color: rgb(39, 46, 52);
+    color: white;
+    text-align: center;
+    line-height: 2rem;
+    padding: 1.5rem 5rem 3rem 5rem;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+}
+.paragraf2 h2{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+.paragraf3{
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 2rem;
+    padding: 1.5rem 5rem 1.5rem 5rem;
+    font-family: 'Lato', sans-serif;
+    /* justify-content: center; */
+}
+.paragraf3 h2{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+.paragraf4{
+    
+    text-align: center;
+    line-height: 2rem;
+    padding: 1.5rem 4rem 1.5rem 4rem;
+    font-family: 'Lato', sans-serif;
+    /* justify-content: center; */
+    background-color: rgb(39, 46, 52);
+    color: white;
+}
+.paragraf4 h2{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}

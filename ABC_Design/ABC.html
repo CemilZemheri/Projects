@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC</title>
+    <link rel="stylesheet" href="./ABC.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>ABC Tasarım Programı Kurulum ve Satış Sözleşmesi :)</h1>
+      <form action="">
+        <div id="div1">
+          <fieldset>
+            <legend>Sözleşme Onay</legend>
+            <input type="checkbox" name="Onay" id="Onay" />
+            <label for="Onay"
+              >Aşağıdaki bilgilerin doğruluğunu kabul ediyorum ve sözleşmesini
+              onaylıyorum.</label
+            >
+            <div>
+              <input type="submit" value="Formu Kaydet" />
+              <input type="reset" value="Formu Temizle" />
+            </div>
+          </fieldset>
+        </div>
+        <div id="div2">
+          <fieldset>
+            <legend>Kişisel Bilgiler</legend>
+            <table width="400">
+              <tr>
+                <td>Form Güvenlik ID</td>
+                <td>
+                  <input
+                    type="text"
+                    id="gid"
+                    name="gid"
+                    value="asdfgh"
+                    disabled
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Ad</td>
+                <td><input type="text" id="ad" name="ad" required /></td>
+              </tr>
+              <tr>
+                <td>Soyad</td>
+                <td><input type="text" id="soyad" name="soyad" required /></td>
+              </tr>
+              <tr>
+                <td>Yaş</td>
+                <td>
+                  <input type="number" min="20" max="100" id="yas" name="yas" />
+                </td>
+              </tr>
+              <tr>
+                <td>Mail Adresi</td>
+                <td>
+                  <input type="email" id="eposta" name="eposta" required />
+                </td>
+              </tr>
+              <tr>
+                <td>Fotoğraf Ekle</td>
+                <td><input type="file" id="fotom" name="fotom" /></td>
+              </tr>
+            </table>
+            <!-- <legend>Kişisel Bilgiler</legend>
+              <label for="ID">Form Güvenlik ID</label>
+              <input type="text" name="ID" id="ID" placeholder="asdfgh" /><br />
+              <label for="Ad">Ad</label>
+              <input type="text" name="Ad" id="Ad" /><br />
+              <label for="Soyad">Soyad</label>
+              <input type="text" name="Soyad" id="Soyad" /><br />
+              <label for="Yaş">Yaş</label>
+              <input type="number" name="Yaş" id="Yaş" /><br />
+              <label for="Mail Adresi">Mail Adresi</label>
+              <input type="email" name="Mail Adresi" id="Mail Adresi" /><br />
+              <label for="Fotoğraf Ekle">Fotoğraf Ekle</label>
+              <input type="file" name="Fotoğraf Ekle" id="Fotoğraf Ekle" /> -->
+          </fieldset>
+        </div>
+
+        <!-- <div id="div2">
+          <fieldset>
+            <legend>Kişisel Bilgiler</legend>
+            <label for="ID">Form Güvenlik ID</label>
+            <input type="text" name="ID" id="ID" placeholder="asdfgh" /><br />
+
+            <label for="Ad">Ad</label>
+            <input type="text" name="Ad" id="Ad" /><br />
+
+            <label for="Soyad">Soyad</label>
+            <input type="text" name="Soyad" id="Soyad" /><br />
+
+            <label for="Yaş">Yaş</label>
+            <input type="number" name="Yaş" id="Yaş" /><br />
+
+            <label for="Mail Adresi">Mail Adresi</label>
+            <input type="email" name="Mail Adresi" id="Mail Adresi" /><br />
+            <label for="Fotoğraf Ekle">Fotoğraf Ekle</label>
+            <input type="file" name="Fotoğraf Ekle" id="Fotoğraf Ekle" />
+          </fieldset>
+        </div> -->
+
+        <div id="div3">
+          <fieldset>
+            <legend>Diğer Bilgiler</legend>
+            <h4>Buradaki Alanlar Mesleki Deneyimi Kapsar</h4>
+            <label for="Giriş">Sektöre Giriş Tarihi</label>
+            <input type="date" name="Giriş" id="Giriş" /><br />
+
+            <span>Sektör Deneyimi</span>
+
+            <input type="radio" name="Deneyim" id="Deneyim1" value="1-5 yıl" />
+            <label for="Deneyim1">1-5yıl</label><br />
+
+            <input type="radio" name="Deneyim" id="Deneyim2" value="6-10 yıl" />
+            <label for="Deneyim2">6-10yıl</label><br />
+
+            <input type="radio" name="Deneyim" id="Deneyim3" value="1-5 yıl" />
+            <label for="Deneyim3">11-15yıl</label><br />
+
+            <input type="radio" name="Deneyim" id="Deneyim4" value="1-5 yıl" />
+            <label for="Deneyim4">15-üzeri</label><br />
+
+            <label for="Programlama Dilleri">Programlama Dilleri</label>
+            <select name="Diller" id="Programlama Dilleri">
+              <option value="">C#</option>
+              <option value="">PHP</option>
+              <option value="">Java</option>
+              <option value="">JavaScript</option>
+            </select>
+          </fieldset>
+        </div>
+
+        <div id="div4">
+          <fieldset>
+            <legend>Sözleşme Kopyası</legend>
+            <textarea name="" id="" cols="30" rows="10">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit esse cupiditate, doloremque, temporibus accusamus sint cumque ullam provident dolore beatae, ducimus alias rerum deleniti consequuntur maxime. Laborum impedit quisquam vitae!</textarea
+            >
+          </fieldset>
+        </div>
+        <div id="div5">
+          <fieldset>
+            <legend>Mail Listesi</legend>
+            <label for="Evet">Mail Listesine Katılmak <b>İstiyorum</b></label>
+            <input type="radio" name="İstek" id="Evet" /><br />
+
+            <label for="Hayır"
+              >Mail Listesine Katılmak <b><u>İstemiyorum</u></b></label
+            >
+            <input type="radio" name="İstek" id="Hayır" />
+          </fieldset>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

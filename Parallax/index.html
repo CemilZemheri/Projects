@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const month = prompt(`Enter a month (1-12)`);
+      const isValidMonth = month >= 1 && month <= 12;
+      if (!isValidMonth) {
+        console.log(`Invalid month. Please enter valid values.`);
+      } else {
+        const day = prompt(`Enter a day(1-31)`);
+
+        const isValidDay = day >= 1 && day <= 31 && (month === 2 || day < 30);
+
+        if (!isValidDay) {
+          console.log(`Invalid day. Please enter valid values.`);
+        } else {
+          let season;
+          if (
+            (month >= 3 && month <= 5) ||
+            (month === 2 && day >= 21 && day <= 29)
+          ) {
+            season = `spring`;
+          } else if ((month >= 6 && month <= 8) || (month === 9 && day <= 21)) {
+            season = `summer`;
+          } else if (
+            (month >= 9 && month <= 11) ||
+            (month === 12 && day <= 20)
+          ) {
+            season = `fall`;
+          } else {
+            season = `winter`;
+          }
+          console.log(`The season for ${month} / ${day} is ${season}.`);
+        }
+      }
+    </script>
+  </body>
+</html>
