@@ -1,0 +1,104 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+  
+  
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Oswald', sans-serif;
+  }
+  header h1{
+    background-color: rgb(255, 222, 196);
+    text-align: center;
+    justify-content: center;
+  }
+.ust{
+    
+    
+    display: flex;
+align-items: center;   
+justify-content: center;
+gap: 2rem;
+font-size: large;
+padding: 1rem;
+background-color: rgb(255, 222, 196);
+   
+    
+  }
+  button{
+    font-family: 'Oswald', sans-serif;
+    padding: 0.3rem 0.3rem;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(255, 222, 196);
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: orangered;
+    padding: 0.5rem;
+    transition: all;
+  }
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    flex-wrap: wrap;
+  }
+  main .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: antiquewhite;
+    height: 300px;
+    width: 350px;
+   margin: 0.5em;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    
+  }
+  .box img{
+    
+    width:90%;
+    height:90%;
+    border-radius: 10px;
+    object-fit: cover;
+    
+
+  }
+  h3{
+    position: absolute;
+    top: 8rem;
+    left:8rem;
+    font-size: 24px;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    opacity:0;
+    transition: opacity 1s ease-in-out;
+    border: 1px white;
+    border-radius: 10px;
+    background-color: rgba(250, 235, 215, 0.153);
+    
+    
+  }
+  h3:hover{
+    cursor: zoom-in;
+    opacity: 1;
+    transition: opacity 1s ease-in;
+    
+  }
+footer{
+    background-color: rgb(255, 222, 196);
+    text-align: center;
+    padding: 1rem;
+}
+  
